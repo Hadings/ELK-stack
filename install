@@ -1,0 +1,5 @@
+# ELK-stack-install
+
+# curl -XGET localhost:9200        : ELK status
+# sudo service elasticsearch start : ELK start
+# sudo service elasticsearch stop  : ELK stop
