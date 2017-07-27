@@ -1,0 +1,8 @@
+# download Kibana
+# sudo dpkg -i kibana-5.0.2-amd64.deb
+# vi /etc/kibana/kibana.yml 
+# check Format => server.host: "localhost" & elasticsearch.url: "http://localhost:9200"
+
+# sudo /usr/share/kibana/bin/kibana <start to kibana>
+# so go to Website => localhost:5601 
+
