@@ -1,0 +1,6 @@
+
+NGUSERNAME [a-zA-Z\.\@\-\+_%]+
+NGUSER %{NGUSERNAME}
+NGINXEDGE %{IPORHOST:clientip}\[%{HTTPDATE:timestamp}\] %{NUMBER:server_port:int} %{NUMBER:request_time:float} %{NUMBER:response} %{NUMBER:body_bytes_sent}\"(?:%{WORD:verb} %{NOTSPACE:request}(?:HTTP/%{NUMBER:$httpversion})?|%{DATA:rawrequest})\" %{QS:referrer} %{QS:agent}
+
+
